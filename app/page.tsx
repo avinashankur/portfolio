@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-8 xl:px-[15rem]">
-      <div className="mt-20 uppercase text-5xl lg:text-[8rem] font-bold tracking-tighter">
+      <div className="pt-20 uppercase text-5xl lg:text-[8rem] font-bold tracking-tighter">
         <h1 className="overflow-hidden relative">
           Hi, i'm <span id="logo" className="text-sky-400">Avinash</span>
           <span>.</span>
@@ -40,7 +40,7 @@ export default function Home() {
                 Linkedin
               </span>
             </Link>
-            <Link href="/" className=" flex items-start">
+            <Link href="/instagram" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">03 </span>
               <span className="text-5xl lg:text-8xl font-bold text-sky-400 uppercase tracking-[-0.2rem] lg:tracking-[-0.5rem] hover:text-sky-700 transition">
                 Instagram

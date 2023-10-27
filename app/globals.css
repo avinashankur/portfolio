@@ -9,43 +9,43 @@
 #lwt {
   position: relative;
   overflow: hidden;
+}
 
-  #lynx {
-    display: block;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+#lynx {
+  display: block;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
-    &::after {
-      content: "LET'S WORK TOGETHER!";
-      position: absolute;
-      inset: 0;
-      color: white;
-      transform: translateY(100%);
-      transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
+#lynx::after {
+  content: "LET'S WORK TOGETHER!";
+  position: absolute;
+  inset: 0;
+  color: white;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
-    &:hover {
-      transform: translateY(-100%);
-      transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-  }
+#lynx:hover {
+  transform: translateY(-100%);
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 #logo {
   cursor: default;
   display: inline-block;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
-  &::after {
-    content: "AVINASH";
-    position: absolute;
-    inset: 0;
-    color: white;
-    transform: translateY(100%);
-    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
+#logo::after {
+  content: "AVINASH";
+  position: absolute;
+  inset: 0;
+  color: white;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
-  &:hover {
-    transform: translateY(-100%);
-    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
+#logo:hover {
+  transform: translateY(-100%);
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
