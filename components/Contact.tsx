@@ -11,7 +11,7 @@ const Contact = () => {
           id="lynx"
           className="child text-sky-400 font-bold text-2xl lg:text-4xl tracking-tighter underline uppercase"
         >
-          Let's Work Together!
+          Let&#39;s Work Together!
         </Link>
       </div>
     </div>
