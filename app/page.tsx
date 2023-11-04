@@ -5,7 +5,7 @@ export default function Home() {
     <main className="px-8 xl:px-[15rem]">
       <div className="pt-20 uppercase text-5xl lg:text-[8rem] font-bold tracking-tighter">
         <h1 className="overflow-hidden relative">
-          Hi, i'm <span id="logo" className="text-sky-400">Avinash</span>
+          Hi, i&#39;m <span id="logo" className="text-sky-400">Avinash</span>
           <span>.</span>
         </h1>
       </div>
