@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-8 xl:px-[15rem]">
-      <div className="pt-20 uppercase text-5xl lg:text-[8rem] font-bold tracking-tighter">
+      <div className="mt-20 uppercase text-5xl lg:text-[8rem] tracking-wide font-[fantasy]">
         <h1 className="overflow-hidden relative">
           Hi, i&#39;m <span id="logo" className="text-sky-400">Avinash</span>
           <span>.</span>
@@ -11,15 +11,12 @@ export default function Home() {
       </div>
 
       <section className="max-w-3xl mx-auto">
-        <div className="flex flex-col lg:flex-row gap-2 lg:gap-16 my-24 ">
+        <div className="flex flex-col lg:flex-row gap-2 lg:gap-16 lg:my-24 my-14 ">
           <h1 className="font-bold tracking-tighter uppercase text-lg">
-            Graphic Designer
+            WebDev
           </h1>
           <p className="text-neutral-400 text-sm lg:text-base">
-            My name is Arnav Gupta AKA Infraxer. I am a creative and passionate
-            graphic designer who is eager to learn and grow. By pushing the
-            boundaries of design, I love bringing innovative ideas to life
-            through visual storytelling.
+          Hey Avinash! I'm a web enthusiast, crafting cool stuff with code. Love exploring design and bringing wild ideas to life on the web. Let's add a touch of magic to the internet, one code line at a time! 🚀
           </p>
         </div>
 
@@ -27,29 +24,29 @@ export default function Home() {
           <h1 className="font-bold tracking-tighter uppercase text-lg underline">
             My portfolio
           </h1>
-          <div>
+          <div className="tracking-wide font-[fantasy]">
             <Link href="/" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">01 </span>
-              <span className="text-5xl lg:text-8xl font-bold text-sky-400 uppercase tracking-[-0.2rem] lg:tracking-[-0.5rem] hover:text-sky-700 transition">
-                behance
+              <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">
+                Projects
               </span>
             </Link>
             <Link href="/" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">02 </span>
-              <span className="text-5xl lg:text-8xl font-bold text-sky-400 uppercase tracking-[-0.2rem] lg:tracking-[-0.5rem] hover:text-sky-700 transition">
-                Linkedin
+              <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">
+                Skills
+              </span>
+            </Link>
+            <Link href="/linkedin" className=" flex items-start">
+              <span className="text-sm text-neutral-400 font-normal">03 </span>
+              <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">
+                LinkedIn
               </span>
             </Link>
             <Link href="/instagram" className=" flex items-start">
-              <span className="text-sm text-neutral-400 font-normal">03 </span>
-              <span className="text-5xl lg:text-8xl font-bold text-sky-400 uppercase tracking-[-0.2rem] lg:tracking-[-0.5rem] hover:text-sky-700 transition">
-                Instagram
-              </span>
-            </Link>
-            <Link href="/" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">04 </span>
-              <span className="text-5xl lg:text-8xl font-bold text-sky-400 uppercase tracking-[-0.2rem] lg:tracking-[-0.5rem] hover:text-sky-700 transition">
-                Skills
+              <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">
+                Instagram
               </span>
             </Link>
           </div>
