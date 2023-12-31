@@ -19,7 +19,7 @@ export default function Linkedin() {
         <div className="mt-10 max-w-3xl">
           <h2 className="font-medium">Welcome to My LinkedIn!</h2>
           <p className="text-neutral-400">
-          Are you looking to expand your network and explore exciting opportunities in the world of graphic design? Let's connect on LinkedIn! As a passionate and accomplished graphic designer, I curate captivating visual experiences that leave a lasting impression. Join me on this creative journey, where we can exchange ideas, collaborate on innovative projects, and together, make a meaningful impact through the power of design. Click the link below to visit my LinkedIn profile, and let's embark on this inspiring adventure together. Looking forward to connecting with you!
+          Are you looking to expand your network and explore exciting opportunities in the world of graphic design? Let&apos;s connect on LinkedIn! As a passionate and accomplished graphic designer, I curate captivating visual experiences that leave a lasting impression. Join me on this creative journey, where we can exchange ideas, collaborate on innovative projects, and together, make a meaningful impact through the power of design. Click the link below to visit my LinkedIn profile, and let&apos;s embark on this inspiring adventure together. Looking forward to connecting with you!
           </p>
         </div>
         <div className="mt-8">
@@ -29,7 +29,7 @@ export default function Linkedin() {
             className="flex items-center gap-3 underline uppercase font-medium"
           >
             <BsInstagram className="text-2xl text-red-400 " />
-            Let's connect on LinkedIn
+            Let&apos;s connect on LinkedIn
           </Link>
         </div>
 
