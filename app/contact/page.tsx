@@ -9,7 +9,7 @@ export default function Contact() {
         &#60; Home
       </Link>
       <main className="px-8 xl:px-[15rem] pt-[10rem]">
-        <h1 className="text-5xl lg:text-9xl font-bold tracking-tighter uppercase">
+        <h1 className="text-5xl lg:text-9xl font-bold font-anton tracking-wider uppercase">
           Contact
         </h1>
         <form

@@ -16,7 +16,7 @@ export default function Home() {
             WebDev
           </h1>
           <p className="text-neutral-400 text-sm lg:text-base">
-          Hey Avinash! I&apos;m a web enthusiast, crafting cool stuff with code. Love exploring design and bringing wild ideas to life on the web. Let&apos;s add a touch of magic to the internet, one code line at a time! 🚀
+          Hey! I&apos;m a web enthusiast, crafting cool stuff with code. Love exploring design and bringing wild ideas to life on the web. Let&apos;s add a touch of magic to the internet, one code line at a time! 🚀
           </p>
         </div>
 
