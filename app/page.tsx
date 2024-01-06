@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-8 xl:px-[15rem]">
-      <div className="mt-20 uppercase text-5xl lg:text-[8rem] tracking-wide font-[fantasy]">
+      <div className="mt-20 uppercase text-6xl lg:text-[8rem] tracking-wide leading-[4.2rem] md:leading-normal font-anton">
         <h1 className="overflow-hidden relative">
           Hi, i&#39;m <span id="logo" className="text-sky-400">Avinash</span>
           <span>.</span>
@@ -25,7 +25,7 @@ export default function Home() {
             My portfolio
           </h1>
           <div className="tracking-wide font-[fantasy]">
-            <Link href="/" className=" flex items-start">
+            <Link href="/projects" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">01 </span>
               <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">
                 Projects
@@ -37,13 +37,13 @@ export default function Home() {
                 Skills
               </span>
             </Link>
-            <Link href="/linkedin" className=" flex items-start">
+            <Link href="https://linkedin.com/in/avinashankur" target="_blank" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">03 </span>
               <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">
                 LinkedIn
               </span>
             </Link>
-            <Link href="/instagram" className=" flex items-start">
+            <Link href="https://instagram.com/avixnsh" target="_blank" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">04 </span>
               <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">
                 Instagram
