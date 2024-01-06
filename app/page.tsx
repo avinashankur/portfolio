@@ -24,7 +24,7 @@ export default function Home() {
           <h1 className="font-bold tracking-tighter uppercase text-lg underline">
             My portfolio
           </h1>
-          <div className="tracking-wide font-[fantasy]">
+          <div className="tracking-wide font-anton">
             <Link href="/projects" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal">01 </span>
               <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition">

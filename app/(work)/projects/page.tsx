@@ -12,7 +12,7 @@ export default function Projects() {
       </Link>
 
       <main className="px-4 xl:px-[5rem] pt-[10rem]">
-        <h1 className="text-5xl lg:text-9xl font-bold tracking-wide font-[fantasy] uppercase">
+        <h1 className="text-5xl lg:text-9xl tracking-wide font-anton uppercase">
           Projects
         </h1>
         <div className="min-h-screen">
@@ -33,7 +33,7 @@ export default function Projects() {
                 className=""
               />
               <div className="p-4 mt-3 rounded">
-                <h2 className="mt-3 tracking-wide text-2xl font-[fantasy] uppercase">
+                <h2 className="mt-3 tracking-wide text-2xl font-anton uppercase">
                   Project 1
                 </h2>
                 <p className="text-justify">
