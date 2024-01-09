@@ -13,23 +13,26 @@ const Cursor: React.FC<Cursor> = () => {
   const [isPointer, setIsPointer] = useState<boolean>(false);
 
   const handleMouseMove = (e: MouseEvent) => {
-    setPosition({ x: e.clientX, y: e.clientY });
+    setTimeout(() => {
+      setPosition({ x: e.clientX, y: e.clientY });
 
-    const target = e.target as HTMLElement;
+      const target = e.target as HTMLElement;
 
-    setIsPointer(
-      window.getComputedStyle(target).getPropertyValue("cursor") === "pointer"
-    );
+      setIsPointer(
+        window.getComputedStyle(target).getPropertyValue("cursor") === "pointer"
+      );
+    }, 100); // Adjust the delay (in milliseconds) according to your preference
   };
 
   useEffect(() => {
     window.addEventListener("mousemove", handleMouseMove);
+
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
-  }, []); // The empty dependency array ensures that this effect runs only once on mount.
+  }, []);
 
-  const flareSize = isPointer ? 0 : 30;
+  const flareSize = isPointer ? 40 : 30;
 
   const cursorStyle: React.CSSProperties = isPointer
     ? { left: "-100px", top: "-100px" }
@@ -50,3 +53,4 @@ const Cursor: React.FC<Cursor> = () => {
 };
 
 export default Cursor;
+

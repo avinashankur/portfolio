@@ -11,39 +11,15 @@ export default function Projects() {
         &#60; Home
       </Link>
 
-      <main className="px-4 xl:px-[5rem] pt-[10rem]">
-        <h1 className="text-5xl lg:text-9xl tracking-wide font-anton uppercase">
+      <main className="px-4 xl:px-[5rem] pt-[10rem] min-h-screen">
+        <h1 className="text-5xl lg:text-9xl tracking-wide font-anton uppercase text-neutral-400">
           Projects
         </h1>
-        <div className="min-h-screen">
-          <div className="flex mt-10 gap-4">
-            <Image
-              src="/insta.png"
-              alt="insta"
-              width={900}
-              height={1000}
-              className=""
-            />
-            <div className="">
-              <Image
-                src="/insta.png"
-                alt="insta"
-                width={500}
-                height={100}
-                className=""
-              />
-              <div className="p-4 mt-3 rounded">
-                <h2 className="mt-3 tracking-wide text-2xl font-anton uppercase">
-                  Project 1
-                </h2>
-                <p className="text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                  provident obcaecati voluptatibus? Libero illum, aliquam
-                  dolores ipsam omnis eveniet quaerat?
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="uppercase text-5xl md:text-6xl flex flex-col my-24">
+          <Link href="https://harvey-bennet.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">Harvey Bennet</Link>
+          <Link href="https://monoma-gamma.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">Monoma</Link>
+          <Link href="https://nibble-phi.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">NCS JSS</Link>
+          <Link href="https://syndicate-school.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">Syndicate School</Link>
         </div>
       </main>
     </>
