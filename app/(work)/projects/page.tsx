@@ -19,7 +19,7 @@ export default function Projects() {
           <Link href="https://harvey-bennet.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">Harvey Bennet</Link>
           <Link href="https://monoma-gamma.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">Monoma</Link>
           <Link href="https://nibble-phi.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">NCS JSS</Link>
-          <Link href="https://syndicate-school.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">Syndicate School</Link>
+          <Link href="https://syndicate-school.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider ">Syndicate</Link>
         </div>
       </main>
     </>
