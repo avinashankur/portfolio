@@ -22,13 +22,14 @@
   content: "LET'S WORK TOGETHER!";
   position: absolute;
   inset: 0;
+  top: 60px;
   color: white;
   transform: translateY(100%);
   transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 #lynx:hover {
-  transform: translateY(-100%);
+  transform: translateY(-120%);
   transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
