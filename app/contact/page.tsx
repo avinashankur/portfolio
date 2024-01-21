@@ -44,7 +44,7 @@ export default function Contact() {
         <h1 className="text-5xl lg:text-9xl font-bold font-anton tracking-wider uppercase">
           Contact
         </h1>
-        <div className="mt-16 max-w-lg flex gap-2 justify-between text-sm text-neutral-300">
+        {/* <div className="mt-16 max-w-lg flex gap-2 justify-between text-sm text-neutral-300">
           <p className="border-2 px-3 py-2 rounded-lg items-center flex flex-col gap-3 border-neutral-800">
             <FaLocationDot className="text-2xl" />
             Noida, India
@@ -56,7 +56,7 @@ export default function Contact() {
             <IoMailOpen className="text-3xl" />
             avinashhankur@gmail.com
           </Link>
-        </div>
+        </div> */}
         <form
           onSubmit={sendEmail}
           ref={form}
