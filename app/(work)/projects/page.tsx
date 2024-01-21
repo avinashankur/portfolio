@@ -16,10 +16,10 @@ export default function Projects() {
           Projects
         </h1>
         <div className="uppercase text-5xl md:text-6xl flex flex-col my-24">
-          <Link href="https://harvey-bennet.vercel.app/" target="_blank" className="border-b-2 border-t-2 py-6 font-anton tracking-wider px-4 anim-lr">Harvey Bennet</Link>
-          <Link href="https://monoma-gamma.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider px-4 anim-rl">Monoma</Link>
-          <Link href="https://nibble-phi.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider px-4 anim-lr">NCS JSS</Link>
-          <Link href="https://syndicate-school.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider px-4 anim-rl">Syndicate</Link>
+          <Link href="https://harvey-bennet.vercel.app/" target="_blank" className="border-b-2 border-t-2 py-6 font-anton tracking-wider px-4">Harvey Bennet</Link>
+          <Link href="https://monoma-gamma.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider px-4">Monoma</Link>
+          <Link href="https://nibble-phi.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider px-4">NCS JSS</Link>
+          <Link href="https://syndicate-school.vercel.app/" target="_blank" className="border-b-2 py-6 font-anton tracking-wider px-4">Syndicate</Link>
         </div>
       </main>
     </>

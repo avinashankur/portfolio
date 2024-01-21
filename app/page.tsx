@@ -16,7 +16,7 @@ export default function Home() {
             WebDev
           </h1>
           <p className="text-neutral-400 text-sm lg:text-base">
-          Hey! I&apos;m a web enthusiast, crafting cool stuff with code. Love exploring design and bringing wild ideas to life on the web. Let&apos;s add a touch of magic to the internet, one code line at a time! 🚀
+          Hey! I&apos;m a web enthusiast, crafting cool stuff and blah blah blah blah blah blah blah blah blah blah blah blah blah blaah bah. Baigan!
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function Home() {
                 Projects
               </span>
             </Link>
-            <Link href="/" className=" flex items-start">
+            <Link href="/skills" className=" flex items-start">
               <span className="text-sm text-neutral-400 font-normal anim-op">02 </span>
               <span className="text-5xl lg:text-8xl text-sky-400 uppercase hover:text-sky-700 transition anim-lr">
                 Skills
