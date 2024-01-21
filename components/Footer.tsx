@@ -11,10 +11,10 @@ const Footer = () => {
           <Link href="mailto:avinashhankur@gmail.com" className="underline font-bold text-sm text-neutral-400 tracking-tighter hover:text-neutral-200 transition">avinashhankur@gmail.com</Link>
         </div>
         <div className="font-medium uppercase  tracking-tight gap-3 flex flex-col lg:flex-row text-neutral-400">
-          <Link href="/" className="hover:text-sky-400 transition">
+          <Link href="/projects" className="hover:text-sky-400 transition">
             • Projects
           </Link>
-          <Link href="/" className="hover:text-sky-400 transition">
+          <Link href="/skills" className="hover:text-sky-400 transition">
             • Skills
           </Link>
           <Link
