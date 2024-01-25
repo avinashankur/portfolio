@@ -14,8 +14,8 @@ const Footer = () => {
           <Link href="/projects" className="hover:text-sky-400 transition">
             • Projects
           </Link>
-          <Link href="/skills" className="hover:text-sky-400 transition">
-            • Skills
+          <Link href="https://github.com/avinashankur" target="_blank" className="hover:text-sky-400 transition">
+            • Github
           </Link>
           <Link
             href="https://linkedin.com/in/avinashankur"
