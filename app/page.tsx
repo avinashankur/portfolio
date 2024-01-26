@@ -16,7 +16,7 @@ export default function Home() {
             WebDev
           </h1>
           <p className="text-neutral-400 text-sm lg:text-base">
-          I'm a computer science student based in Noida. Developing and maintaining web apps using Next.js. 😎
+          I&apos;m a computer science student based in Noida. Developing and maintaining web apps using Next.js. 😎
           </p>
         </div>
 
