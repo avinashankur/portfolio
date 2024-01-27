@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-24 text-neutral-500 font-aron uppercase font-bold text-xs">
-        <p className="text-center ">Made with 🩵 by Avinash.</p>
+        <p className="text-center ">Made with 💜 by Avinash.</p>
       </div>
     </footer>
   );

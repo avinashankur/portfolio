@@ -9,7 +9,7 @@ const Contact = () => {
         <Link
           href="/contact"
           id="lynx"
-          className="child text-purple-400 font-anton text-3xl lg:text-5xl underline uppercase"
+          className="child text-purple-500 font-anton text-3xl lg:text-5xl underline uppercase"
         >
           Let&#39;s Work Together!
         </Link>
