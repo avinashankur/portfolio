@@ -8,26 +8,26 @@ const Footer = () => {
           <Link href="/" className="uppercase font-anton text-2xl">
             Avinash
           </Link>
-          <Link href="mailto:avinashhankur@gmail.com" className="underline font-bold text-sm text-neutral-400 tracking-tighter hover:text-neutral-200 transition">avinashhankur@gmail.com</Link>
+          <Link href="mailto:avinashhankur@gmail.com" className="underline font-bold text-sm text-neutral-500 tracking-tighter hover:text-neutral-200 transition">avinashhankur@gmail.com</Link>
         </div>
-        <div className="font-medium uppercase  tracking-tight gap-3 flex flex-col lg:flex-row text-neutral-400">
-          <Link href="/projects" className="hover:text-sky-400 transition">
+        <div className="font-medium uppercase  tracking-tight gap-3 flex flex-col lg:flex-row text-neutral-500">
+          <Link href="/projects" className="hover:text-purple-500 transition">
             • Projects
           </Link>
-          <Link href="https://github.com/avinashankur" target="_blank" className="hover:text-sky-400 transition">
+          <Link href="https://github.com/avinashankur" target="_blank" className="hover:text-purple-500 transition">
             • Github
           </Link>
           <Link
             href="https://linkedin.com/in/avinashankur"
             target="_blank"
-            className="hover:text-sky-400 transition"
+            className="hover:text-purple-500 transition"
           >
             • LinkedIn
           </Link>
           <Link
             href="https://instagram.com/avixnsh"
             target="_blank"
-            className="hover:text-sky-400 transition"
+            className="hover:text-purple-500 transition"
           >
             • Instagram
           </Link>
