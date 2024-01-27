@@ -5,7 +5,7 @@ export default function Skills() {
     <>
       <Link
         href="/"
-        className="px-4 xl:px-[5rem] mt-[5rem] absolute font-bold text-sky-400 text-lg hover:text-neutral-400 transition"
+        className="px-4 xl:px-[5rem] mt-[5rem] absolute font-bold text-purple-400 text-lg hover:text-neutral-400 transition"
       >
         &#60; Home
       </Link>
