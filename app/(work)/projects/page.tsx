@@ -4,12 +4,12 @@ import Image from "next/image";
 export default function Projects() {
   return (
     <>
-      {/* <Link
+      <Link
         href="/"
         className="px-4 xl:px-[5rem] mt-[5rem] absolute font-bold text-purple-500 text-lg hover:text-neutral-400 transition"
       >
         &#60; Home
-      </Link> */}
+      </Link>
 
        <main className="px-4 xl:px-[5rem] pt-[10rem] min-h-screen">
         <h1 className="text-5xl lg:text-9xl tracking-wide font-anton uppercase text-neutral-400">
