@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-8 xl:px-[15rem]">
-      <div className="mt-20 uppercase text-5xl lg:text-[8rem] tracking-wide leading-[4.2rem] md:leading-normal font-anton">
+      <div className="mt-20 uppercase text-7xl lg:text-[8rem] tracking-wide leading-[4.8rem] md:leading-normal font-anton">
         <h1 className="overflow-hidden relative anim-rl">
           Hi, i&#39;m <span id="logo" className="text-purple-500">Avinash</span>
           <span>.</span>
