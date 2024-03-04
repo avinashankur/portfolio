@@ -11,7 +11,7 @@ export default function Skills() {
       </Link>
 
       <main className="px-4 xl:px-[5rem] pt-[10rem] min-h-screen">
-        <h1>Skills 🙃</h1>
+        <h1>Skills? Baigan! 🙃</h1>
       </main>
     </>
   );
