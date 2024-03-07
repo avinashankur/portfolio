@@ -68,7 +68,7 @@ export default function Projects() {
           <div //change this to link tag after adding project
             className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded border border-neutral-600 group relative flex items-center justify-center"
           >
-            <p className="font-anton text-3xl animate-bounce">Coming Soon</p>
+            <p className="font-anton text-3xl animate-bounce">Coming Soon.</p>
           </div>
         </div>
       </main>
