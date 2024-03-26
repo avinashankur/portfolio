@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-950 lg:px-[15rem] px-4 pt-[3rem] pb-[1rem] ">
+    <footer className="bg-zinc-950 lg:px-[15rem] px-4 pt-[3rem] pb-[1rem] anim-footer">
       <div className="flex flex-col lg:flex-row lg:items-center gap-4 justify-between x">
         <div className="flex flex-col">
           <Link href="/" className="uppercase font-anton text-2xl">

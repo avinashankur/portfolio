@@ -1,7 +1,7 @@
 import Link from "next/link";
 const Contact = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-2 lg:gap-16 my-24 max-w-3xl mx-auto px-8">
+    <div className="flex flex-col lg:flex-row gap-2 lg:gap-16 my-24 max-w-3xl mx-auto px-8 anim-op">
       <h2 className="uppercase font-bold">
         Contact me
       </h2>
