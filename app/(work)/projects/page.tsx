@@ -12,14 +12,15 @@ export default function Projects() {
       </Link>
 
       <main className="px-4 xl:px-[5rem] pt-[10rem] min-h-screen">
-        <h1 className="text-5xl lg:text-9xl tracking-wide font-anton uppercase text-neutral-400">
+        <h1 className="text-5xl lg:text-9xl tracking-wide font-anton uppercase text-neutral-400 anim-1">
           Project
         </h1>
 
         <div className="lg:my-40 mx-auto my-16 shadow flex flex-wrap md:grid grid-flow-row grid-cols-3 w-fit gap-4">
           <Link
-            href=""
-            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 bg-[url('/monoma2.png')] bg-cover overflow-hidden group"
+            href="https://monoma-gamma.vercel.app/"
+            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 bg-[url('/monoma2.png')] bg-cover overflow-hidden group anim-lr"
+            target="_blank"
           >
             <div className="bg-neutral-950/70 lg:rotate-90 lg:translate-y-6 lg:-translate-x-[13.5rem] px-4 py-3 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:bg-green-500 group-hover:-rotate-0 transition duration-500 h-full">
               <p className=" font-anton text-5xl lg:text-6xl">MONOMA</p>
@@ -28,7 +29,8 @@ export default function Projects() {
           </Link>
           <Link
             href="https://nibble-phi.vercel.app/"
-            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 bg-[url('/ncs2.png')] bg-cover overflow-hidden group"
+            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 bg-[url('/ncs2.png')] bg-cover overflow-hidden group anim-rl"
+            target="_blank"
           >
             <div className="bg-neutral-950/70 h-full p-4 group-hover:bg-yellow-600 lg:translate-x-[13rem] lg:-translate-y-[1.5rem] transition duration-500 lg:-rotate-90 group-hover:rotate-0 group-hover:translate-x-0 group-hover:translate-y-0">
               <p className="font-medium uppercase mb-4 lg:text-6xl text-5xl font-anton tracking-4">
@@ -41,7 +43,8 @@ export default function Projects() {
           </Link>
           <Link
             href="https://harvey-bennet.vercel.app/"
-            className="bg-neutral-800 h-[20rem] md:h-[35rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 col-[2] row-[1/3] bg-[url('/harvey3.jpeg')] bg-cover flex flex-col justify-end overflow-hidden group"
+            className="bg-neutral-800 h-[20rem] md:h-[35rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 col-[2] row-[1/3] bg-[url('/harvey3.jpeg')] bg-cover flex flex-col justify-end overflow-hidden group anim-op"
+            target="_blank"
           >
             <div className="bg-neutral-950/70 h-full p-4 lg:translate-y-[22rem] group-hover:bg-purple-600 group-hover:translate-y-0 transition duration-500">
               <p className="font-medium uppercase mb-4 lg:text-6xl text-5xl font-anton tracking-4">
@@ -54,7 +57,8 @@ export default function Projects() {
           </Link>
           <Link
             href="https://port-five-teal.vercel.app/"
-            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 bg-[url('/portfolio2.png')] bg-cover group overflow-hidden"
+            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded  border border-neutral-600 bg-[url('/portfolio2.png')] bg-cover group overflow-hidden anim-rl-2"
+            target="_blank"
           >
             <div className="bg-pink-600 h-full p-4 group-hover:bg-neutral-950/70 group-hover:translate-y-[12rem] transition duration-500">
               <p className="font-medium uppercase mb-4 lg:text-6xl text-5xl font-anton tracking-4">
@@ -66,7 +70,7 @@ export default function Projects() {
             </div>
           </Link>
           <div //change this to link tag after adding project
-            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded border border-neutral-600 group relative flex items-center justify-center"
+            className="bg-neutral-800 h-[17rem] w-[15rem] lg:w-[20rem] rounded border border-neutral-600 group relative flex items-center justify-center anim-lr-2"
           >
             <p className="font-anton text-3xl animate-bounce">Coming Soon.</p>
           </div>

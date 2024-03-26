@@ -170,3 +170,29 @@
     transform: translateY(0);
   }
 }
+
+.anim-rl-2 {
+  animation: anim-rl-2 0.8s ease-in-out;
+}
+
+@keyframes anim-rl-2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.anim-lr-2 {
+  animation: anim-lr-2 0.8s ease-out;
+}
+
+@keyframes anim-lr-2{
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
